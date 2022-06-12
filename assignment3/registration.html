@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+</head>
+
+<body bgcolor="#FCE3E1">
+    <form action="/tacos">
+        <caption>
+            <h2>Registration Form</h2>
+        </caption>
+        <hr>
+        <table>
+            <tr>
+                <td>
+                    <label> Firstname: </label>
+                    <input type="text" name="firstname" size="15" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label> Middlename: </label>
+                    <input type="text" name="middlename" size="15" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label> Lastname: </label>
+                    <input type="text" name="lastname" size="15" />
+                </td>
+            </tr>
+        </table>
+        <br>
+        <br>
+        <label>
+            Department :
+        </label>
+        <select>
+            <option value="--select--">--select--</option>
+            <option value="I.T.">I.T.</option>
+            <option value="CSE">CSE</option>
+            <option value="CS">CS</option>
+            <option value="ECE">ECE</option>
+        </select>
+
+        <br>
+        <br>
+        <label>
+            Gender :
+        </label><br>
+        <input type="radio" name="male" /> Male <br>
+        <input type="radio" name="female" /> Female <br>
+        <input type="radio" name="other" /> Other
+        <br>
+        <br>
+
+        <label>
+            Phone :
+        </label>
+        <input type="text" name="country code" value="+91" size="2" />
+        <input type="text" name="phone" size="10" /> <br> <br>
+        Address
+        <br>
+        <textarea cols="80" rows="5" value="address"></textarea>
+        <br>
+        <br>
+        Email:
+        <input type="email" id="email" name="email" /> <br>
+        <br> <br>
+        Password:
+        <input type="Password" id="pass" name="pass"> <br>
+        <br> <br>
+        Re-type password:
+        <input type="Password" id="repass" name="repass"> <br> <br>
+        <button type="Submit">Submit</button>
+    </form>
+</body>
+</body>
+
+</html>
